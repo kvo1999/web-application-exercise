@@ -73,6 +73,18 @@ python -m app.daily_briefing
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
 
+To make the flask app work:
+
+on Mac:
+```sh
+FLASK_APP=web_app flask run
+```
+
+on Windows:
+```sh
+export FLASK_APP=web_app
+flask run
+```
 
 ## Testing
 
