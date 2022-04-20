@@ -70,7 +70,7 @@ Sending the weather forecast in an email:
 python -m app.daily_briefing
 
 # in production mode:
-APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
+APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" SECRET_KEY="YOLO" python -m app.daily_briefing
 ```
 
 To make the flask app work:
